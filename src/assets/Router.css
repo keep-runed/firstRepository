@@ -1,0 +1,11 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.main{
+    margin:  3rem auto;
+    width: 62rem;
+}

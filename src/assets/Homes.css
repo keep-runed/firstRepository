@@ -1,0 +1,166 @@
+.homes{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  position: relative;
+  height: 100%;
+  background-color: #fff;
+}
+.returnTop{
+    position: fixed;
+    right: 3rem;
+    bottom: 5rem;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #ddd;
+}
+/* 每条信息 */
+.essay{
+    width: 40rem;
+    padding-bottom: 1rem;
+}
+.essayItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 1rem;
+    border-bottom: 2px solid #ddd;
+}
+
+.essayItem .essayItemLeft .title h3 a{
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+.essayItem .essayItemLeft .title h3{
+    border-bottom: 1px solid #fff;
+}
+.essayItem .essayItemLeft .title h3:hover{
+    border-bottom: 1px solid;
+}
+.essayItem .essayItemLeft .essayItemBody{
+    font-size: 14px;
+    line-height: 22px;
+    color: #999;
+    margin: .8rem 0;
+}
+
+.essayItem .essayItemFoot {
+    display: flex;
+    justify-content: left;
+}
+.essayItem .essayItemFoot  li{
+    margin-right: 1rem;
+    color: #ddd;
+}
+.essayItem .essayItemFoot li:nth-child(1){
+    color: red;
+}
+.essayItem .essayItemFoot li i{
+    margin-right: .3rem;
+}
+
+.essayItem .essayItemRight{
+    width: 14rem;
+    padding: 1.5rem 0 1.5rem 1rem;
+}
+.essayItem .essayItemRight img{
+    width: 100%;
+}
+
+.ant-pagination{
+    width: 12rem;
+    margin: 2rem auto !important;
+}
+
+/* 侧边栏 */
+.aside{
+    width: 17.5rem;
+}
+.asideNav li{
+    width: 100%;
+}
+.asideNav li a img{
+    width: 100%;
+}
+/* 二维码 */
+.aside .qrCode{
+    border: 1px solid #ddd;
+    border-radius: .4rem;
+    padding: .8rem;
+    margin: .5rem auto;
+}
+.aside .qrCode a{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+}
+.aside .qrCode img{
+    width: 4rem;
+    margin-right: .4rem;
+}
+.aside .qrCode a{
+    font-size: 14px
+}
+.aside .qrCode a span{
+    color: #333;
+    line-height: 1.5rem;
+}
+.aside .qrCode a p{
+    color: #666;
+    line-height: 1.5rem;
+}
+/* 推荐作者 */
+.aside .writer .title{
+    height: 3rem;
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+}
+.aside .writer .title h5{
+    font-weight: normal;
+}
+.aside .writer .writerList li{
+    /* display: flex;
+    justify-content: space-between; */
+    font-size: 14px;
+    height: 4rem;
+    overflow: hidden;
+}
+.aside .writer .writerList li img{
+    border-radius: 50%;
+    width: 3rem;
+    margin-right: .5rem;
+    float: left;
+}
+.aside .writer .writerList li div{
+    float: left;
+    /* margin-left: -2rem; */
+}
+.aside .writer .writerList li div span{
+    color: #333;
+}
+.aside .writer .writerList li div p{
+    color: #666;
+}
+.aside .writer .writerList li>p{
+    float: right;
+    color: green;
+}
+.aside .writer .writerList button{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    outline: none;
+    border-radius: .3rem;
+    border: 1px solid #999;
+    background-color: #ddd;
+    color: #666;
+}
+
+.ant-back-top{
+    bottom: 5rem !important;
+    right: 3rem !important;
+}

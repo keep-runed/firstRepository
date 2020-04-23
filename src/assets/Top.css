@@ -1,0 +1,149 @@
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+    border-bottom: 1px solid #dddddd;
+    background-color: #fff;
+    z-index: 999;
+}
+.topLeft{
+    width: 50%;
+    display: flex;
+    justify-content:right;
+    line-height: 3rem;
+}
+.topLeft h2{
+    width: 5rem;
+    text-align: center;
+    line-height: 3rem;
+    font-weight: normal;
+    color: #eb6f5a;
+    font-size: 26px;
+}
+.topLeft .topSearch{
+    width: 70%;
+    
+}
+.topLeft .topSearch li{
+    float: right;
+    margin-left: 1.5rem;
+    position: relative;
+    padding: 0 .5rem;
+    height: 1rem;
+}
+.topLeft .topSearch li:nth-last-child(1){
+    margin-left: 0;
+}
+.topLeft .topSearch li em{
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    cursor: pointer;
+}
+.topLeft .topSearch li a{
+    font-size: 16px;
+    color: #333;
+}
+.topLeft .topSearch li input{
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    background-color: #eeeeee;
+    height: 2.2rem;
+    padding-left: 1rem;
+}
+.topLeft .topSearch li .iconfont{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 20px;
+    cursor: pointer;
+    color: #999;
+    background-color: #eeeeee;
+    height: 1rem;
+    line-height: 1rem;
+    
+
+}
+.topRight{
+    width: 50%;
+    padding: .25rem;
+}
+.topRight div{
+    float: right;
+    margin: 0 .5rem 0 1rem;
+}
+.topRight .writes{
+    width: 6rem;
+    height: 2.5rem;
+    background-color: #ea6f5a;
+    border-radius: 2rem;
+    text-align: center;
+    line-height: 2.5rem;
+    
+}
+.topRight .writes a{
+    color: #fff;
+    font-size: 16px;
+}
+.topRight .writes a i{
+    margin-right: .5rem;
+}
+.topRight .rigister a{
+    display: inline-block;
+    border: 1px solid #ea6f5a;
+    color: #ea6f5a; 
+    width: 4rem;
+    height: 2rem;
+    line-height: 2rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    font-size: 16px;
+    text-align: center;
+    margin-top: .25rem;
+}
+.topRight .user{
+    height: 2.5rem;
+    line-height: 2.5rem;
+    color: #999;
+    font-size: 14px;
+}
+.topRight .user span{
+    color: yellow;
+    font-size: 18px;
+}
+.topRight .login a{
+    border: none;
+    color: #999999; 
+    width: 4rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: #fff;
+    font-size: 16px;
+}
+.topRight .erweima,.topRight .aA{
+    width: 4rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 20px;
+    text-align: center;
+}
+.topRight .erweima i{
+    font-size: 20px;
+    color: #ea6f5a;
+    font-weight:600;
+}
+.topRight .erweima span{
+    background-color: #ea6f5a;
+    color: #fff;
+    border-radius: 3px;
+}
+.topRight .aA{
+    width: 2rem;
+    color: #999999;
+    font-size: 20px;
+}

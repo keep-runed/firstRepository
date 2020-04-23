@@ -1,0 +1,128 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.registers{
+    width: 100%;
+    height: 100%;
+}
+.registers .logos{
+    position: absolute;
+    left: 5rem;
+    top: 6rem;
+    width: 6rem;
+}
+.registers .logos a img{
+    width: 100%;
+}
+
+.registers>.mains{
+    width: 18.75rem;
+    padding:  3.1rem 3.1rem 1.9rem ; 
+    background-color: #fff;
+    margin: 8rem auto;
+}
+.registers>.mains .title{
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 3rem;
+}
+.registers>.mains .title a{
+    font-size: 18px;
+    color: #999;
+    padding: .6rem;
+}
+.registers>.mains .title a:hover{
+    border-bottom: 2px solid #ea6f5a;
+}
+.registers>.mains .title a:nth-last-child(1){
+    border-bottom: 2px solid #ea6f5a;
+    color: #ea6f5a;
+    font-weight: 600;
+}
+.registers>.mains .title i{
+    font-size: 24px;
+    margin: 0 1rem;
+    color: #999;
+}
+.registers>.mains>.user,.registers>.mains>.pass,.registers>.mains>.names{
+    position: relative;
+}
+.registers>.mains>.user i,.registers>.mains>.pass i,.registers>.mains>.names i{
+    position: absolute;
+    top: .6rem;
+    left: 1rem;
+    font-size: 24px;
+    color: #999;
+}
+.registers>.mains>.names input,.registers>.mains>.user input,.registers>.mains>.pass input{
+    width: 15.75rem;
+    outline: none;
+    background-color: #f7f7f7;
+    height: 3rem;
+    border: 1px solid #c8c8c8;
+    padding-left: 3rem;
+    border-radius: .15rem;
+}
+.registers>.mains>.pass input,.registers>.mains>.user input{
+    margin-top: -1px;
+}
+
+.registers>.mains>.submits{
+    width: 18.75rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border:none;
+    outline: none;
+    background-color: #42c02e;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 20px;
+}
+.registers>.mains>.submits:hover{
+    background-color: #3db922;
+    cursor: pointer;
+}
+/* 其他登录 */
+.registers>.mains .otherLogin{
+    width: 15rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-top: 1px solid #b5b5b5;
+    text-align: center;
+}
+.registers>.mains .otherLogin h6{
+    width: 7rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin: -1.5rem auto;
+    font-size: 12px;
+    background-color: #fff;
+    text-align: center;
+    font-weight: normal;
+    color: #b5b5b5;
+}
+.registers>.mains .otherLogin .otherLoginList{
+    margin-top: 1.5rem;
+}
+.registers>.mains .otherLogin .otherLoginList li{
+    display: inline-block;
+    margin: 0 .5rem;
+}
+.registers>.mains .otherLogin .otherLoginList li a{
+    display: block;
+    width: 3.1rem;
+    height: 3.1rem;
+    line-height: 3.1rem;
+    cursor: pointer;
+}
+.registers>.mains .otherLogin .otherLoginList li a i{
+    font-size: 30px;
+}
+.registers>.mains .otherLogin .otherLoginList li a .qq{
+    color: #498ad5;
+}
+.registers>.mains .otherLogin .otherLoginList li a .weChat{
+    color: #00bb29;
+}

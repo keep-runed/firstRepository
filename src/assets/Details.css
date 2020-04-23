@@ -1,0 +1,449 @@
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    position: relative;
+    background-color: #fff;
+}
+.details .returnTop{
+    position: fixed;
+    right: 6rem;
+    bottom: 5rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #999;
+}
+.details .leftFixed{
+    position: fixed;
+    top: 50%;
+    left: 7rem;
+    margin-top: -6rem;
+}
+.details .leftFixed li{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.details .leftFixed li p{
+    width: 3rem;
+    height: 3rem;
+    line-height:3rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+}
+.details .leftFixed li p i{
+    font-size: 26px;
+    color: #999;
+}
+.details .leftFixed li>span{
+    font-size: 14px;
+    color: #999;
+    padding: .5rem 0;
+}
+.essayContent {
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+.essayContent .essayTtile h3{
+    font-size: 26px;
+    color: #000;
+}
+.essayContent .detailsWriter{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: left;
+}
+.essayContent .detailsWriter>img{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+.badges{
+    width: 1rem !important;
+    height: 1rem !important;
+    margin-left: .5rem !important;
+    vertical-align: middle !important;
+}
+.essayContent .detailsWriter .badges:nth-last-of-type(1){
+    margin-right: 1rem;
+}
+.essayContent .detailsWriter div p{
+    font-size: 16px;
+    color: #333;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.essayContent .detailsWriter div p i{
+    margin: 0 .8rem;
+    color: red;
+}
+.essayContent .detailsWriter div p span{
+    border: 1px solid red;
+    border-radius: 1rem;
+    padding: 0 .5rem;
+    font-size: 16px;
+}
+.essayContent .detailsWriter div>span{
+    color:red;
+    margin-right: 1rem;
+}
+.essayContent .detailsWriter div>span i{
+    margin-right: .3rem;
+    font-size: 12px;
+}
+.essayContent .detailsWriter div em{
+    font-style: normal;
+    font-size: 12px;
+    color: #999;
+    margin-right: 1rem;
+}
+.essayContent .essaySection{
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4rem;
+}
+.essayContent .essaySection em{
+    font-weight: 600;
+    font-size: 28px;
+}
+.essayFoot{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+.essayFoot .essayGood{
+    display: flex;
+    justify-content: left;
+}
+.essayFoot .essayGood li{
+    margin-right: 1rem;
+    font-size: 14px;
+    color: #666;
+}
+.essayFoot .essayGood li i{
+    font-size: 24px;
+    color: #999;
+    vertical-align: middle;
+}
+.essayFoot .essayMore{
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+.essayFoot .essayMore>span{
+    font-size: 14px;
+    color: #666;
+    line-height: 2rem;
+}
+.essayFoot .essayMore .mores{
+    margin:0 2rem;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2rem;
+}
+.essayFoot .essayMore>span>i{
+    margin-right: .5rem;
+}
+.essayFoot .essayMore .essayOther{
+    position: absolute;
+    right: 0;
+    top: -8rem;
+    background-color: #fff;
+    padding: .5rem 1rem;
+    border: 1px solid #ddd;
+    box-shadow: .2rem .2rem .2rem .1rem #ddd;
+    display: none;
+}
+.essayFoot .essayMore .essayOther li{
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5rem;
+}
+/* 点赞支持 */
+.giveLike{
+    text-align: center;
+}
+.giveLike .giveLikeTop{
+    padding: 2rem 0;
+    line-height: 2rem;
+}
+.giveLike .giveLikeTop span{
+    font-size: 16px;
+    color: #333;
+}
+.giveLike .giveLikeTop p{
+    width: 4rem;
+    height: 2rem;
+    background-color: red;
+    color: #fff;
+    border-radius: 1rem;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 0 1rem;
+}
+.giveLike .giveLikeTop em{
+    font-style: normal;
+    font-size: 12px;
+    color: #666;
+}
+.giveLike .giveLikeBottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+
+.giveLike .giveLikeBottom img{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-right: .3rem;
+}
+.giveLike .giveLikeBottom>div p{
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    line-height: 1.5rem;
+}
+.giveLike .giveLikeBottom>div p em{
+    font-style: normal;
+    font-size: 14px;
+    color: #333;
+}
+
+.giveLike .giveLikeBottom>div p .iconfont{
+    color: red;
+    font-size: 14px;
+    margin: 0 .3rem;
+    vertical-align: middle;
+}
+.giveLike .giveLikeBottom>div p span{
+    margin-right: .8rem;
+}
+.giveLike .giveLikeBottom>span{
+    width: 3rem;
+    height: 1.5rem;
+    border: 1px solid red;
+    color: red;
+    border-radius: 1rem;
+    margin-top: .8rem;
+}
+/* 写评论 */
+.writeComment{
+    padding: 2rem 0 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.writeComment .commenter{
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+.writeComment  .commentContent{
+    width: 30rem;
+    height: 6rem;
+}
+.writeComment .commentContent textarea{
+    width: 100%;
+    height: 100%;
+    resize:none;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: .3rem;
+    outline: none;
+    background-color: #fafafa;
+}
+.comments {
+    width: 40rem;
+}
+.comments .commentsTitle{
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+.comments .commentsTitle h4{
+    border-left: .3rem solid red;
+    padding-left: 1rem;
+    font-weight: normal;
+    font-size: 18px;
+}
+.comments .commentsTitle h4 span{
+    margin-left: .5rem;
+    font-size: 14px;
+}
+.comments .commentItem img{
+    float: left;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-right: .5rem;
+}
+.comments .commentItem .commenter{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    margin-left: 3.5rem;
+}
+.comments .commentItem .commenter h6{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5rem;
+    color: #333;
+}
+.comments .commentItem .commenter p{
+    font-size: 12px;
+    color: #999;
+    line-height: 1rem;
+}
+.comments .commentItem .commenter .commentContent{
+    padding: 1rem 0;
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+.comments .commentItem .commentItemFoot,
+.comments .commentItem .commentItemFoot span{
+    font-size: 14px;
+    color: #999;
+    margin-right: 1rem;
+}
+.comments .commentItem .commentRelay{
+    margin-left: 3.5rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+}
+.comments .commentItem .commentRelay div h6{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5rem;
+    color: #333;
+}
+.comments .commentItem .commentRelay div p{
+    font-size: 12px;
+    color: #999;
+    line-height: 1rem;
+}
+.comments .commentItem .commentRelay .commentRelayCon{
+    padding: 1rem 0;
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+.comments .commentItem .commentRelay .commentRelayFoot{
+    font-size: 14px;
+    color: #999;
+}
+.comments .commentItem .commentItemFoot i{
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: .3rem;
+}
+.commentItem .commentRelay .commentRelayFoot i{
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: .3rem;
+}
+/* 全部评论 */
+.comments>.commentsTitle>h4>em{
+    border: 1px solid #ddd;
+    font-style: normal;
+    font-size: 12px;
+    color: #666;
+    margin-left: 1rem;
+    padding: .2rem .5rem;
+    border-radius: .8rem;
+}
+/* 侧边栏 */
+.details .detailsAside{
+    width: 17.5rem;
+    margin-left: 2.5rem;
+}
+/* 广告 */
+.details .detailsAside .advertising {
+    width: 17.5rem;
+    margin-bottom: 1rem;
+}
+.details .detailsAside .advertising img{
+    width: 100%;
+}
+/* 作者信息 */
+.detailsAside .detailsWriter{
+    display: flex;
+    justify-content: left;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+.detailsAside .detailsWriter img{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+.detailsAside .detailsWriter div p{
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5rem;
+}
+.detailsAside .detailsWriter div p img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 .05rem;
+    padding: 0;
+}
+
+.detailsAside .detailsWriter div p span{
+    border: 1px solid red;
+    border-radius: 1rem;
+    padding: 0 .5rem;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+.detailsAside .detailsWriter div>span{
+    font-size: 12px;
+    color: #999;
+}
+/* list */
+.detailsAside .asideList{
+    padding: .5rem 0 2rem;
+    margin-bottom: .5rem;
+}
+.detailsAside .asideList li{
+    padding: .5rem 0;
+}
+.detailsAside .asideList li span{
+    font-size: 15px;
+    color: #333;
+    line-height: 1.1rem;
+    cursor: pointer;
+}
+.detailsAside .asideList li span:hover{
+    border-bottom: 1px solid #333;
+}
+.detailsAside .asideList li p{
+    color: #999;
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+/* 推荐阅读 */
+.detailsAside .reading h6{
+    border-left: .25rem solid red;
+    padding-left: 1rem;
+    font-size: 16px;
+    font-weight: normal;
+}
+.changeSpin{
+    width: 17.5rem;
+    height: 2rem;
+    line-height: 2rem;
+    outline: none;
+    background-color: #ddd;
+    color: #333;
+    text-align: center;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
